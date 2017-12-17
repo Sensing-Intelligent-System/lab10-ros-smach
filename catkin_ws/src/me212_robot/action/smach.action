@@ -1,0 +1,9 @@
+#goal definition
+int32 action_id  
+float32 number
+---
+#result definition
+int32[] result
+---
+#feedback
+int32[] feedback

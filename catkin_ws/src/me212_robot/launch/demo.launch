@@ -1,0 +1,10 @@
+<launch>
+          <include file="$(find me212_robot)/launch/viz.launch">
+          </include>
+        <node pkg="me212_robot" type="me212bot_control.py" name="me212bot_control" output="screen">
+	</node>
+        
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard">
+	</node>
+
+</launch>
